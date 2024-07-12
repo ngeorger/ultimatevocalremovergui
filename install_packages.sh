@@ -1,5 +1,5 @@
 #!/bin/bash
 
 while read package; do
-    pip install "$package"
+    pipx install "$package"
 done < requirements.txt
